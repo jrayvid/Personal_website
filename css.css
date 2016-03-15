@@ -1,0 +1,149 @@
+
+/*Index page starts here*/
+.black_bg {
+	background-color: black;
+	/*margin: 100px auto;*/
+
+}
+.note1 {
+	text-align: center;
+
+}
+.note {
+	text-align: center;
+	display: none;
+	color: red;
+}
+
+.h1 {
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+.index1 {
+	text-decoration: none;
+
+}
+a:link.a {
+	color: red;
+	text-decoration: none;
+
+}
+a:visited.a {
+	color: red;
+}
+a:hover.a {
+	color: yellow;
+}
+/*index page ends here*/
+.index {
+	background: url("pics/sedona2.jpg");
+	background-size: cover;
+	overflow-x: hidden;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: fixed;
+	margin: 0;
+
+}
+/*#opacity {
+	opacity: .7;
+}*/
+/*home page begins*/
+#sec1 {
+	text-align: center;
+	margin: 45vh auto;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	font-size: 90px;
+	color: white;
+	height: 400px;
+	width: 100%;
+	overflow: hidden
+
+}
+
+
+
+
+#sec2 {
+	background-image: url("pics/sedona3.jpg");
+	/*background-position: center;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 800px;
+	width: 100%;
+}
+#second2 {
+	margin-top: 250px;
+}
+
+p.sec2 {
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	background-color: rgba(189, 195, 199,0.4);
+	/*padding-top: 125px;*/
+	height: 400;
+	background-size: cover;
+
+}
+
+
+
+
+#sec4 {
+	background-color: gray;
+	background-position: left;
+	background-repeat: no-repeat;
+	
+	/*border: solid red 2px;*/
+	background-color: white;
+	background-attachment: fixed;
+	text-align: center;
+	/*margin-left: -35px;*/
+	height: 920px;
+	width: 100%;
+	
+}
+
+#sec5 {
+
+	text-align: center;
+	margin: 45vh auto;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	
+	font-size: 40px;
+	color: white;
+	height: 400px;
+	width: 100%;
+	overflow: hidden
+
+
+}
+
+p#contact {
+    background-color: rgba(189, 195, 199,0.4);
+    width: 64%;
+    text-align: center;
+    margin-left: 5em;
+}
+
+ul.b {
+	
+	list-style-type: none;
+}
+li.c {
+display: inline-block;
+
+} 
+
+img.a {
+	list-style-type: none;
+	height: 70px;
+
+}
+
+/*home page ends*/
