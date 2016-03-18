@@ -1,8 +1,8 @@
 
+
 /*Index page starts here*/
-.black_bg {
-	background-color: black;
-	/*margin: 100px auto;*/
+body.black_bg {
+    background-color: black;
 
 }
 .note1 {
@@ -36,6 +36,7 @@ a:hover.a {
 	color: yellow;
 }
 /*index page ends here*/
+
 .index {
 	background: url("pics/sedona2.jpg");
 	background-size: cover;
@@ -50,6 +51,18 @@ a:hover.a {
 	opacity: .7;
 }*/
 /*home page begins*/
+
+#description {
+	padding: 2% 2% 1%;
+    margin: 0 2% 3% 2%;
+    opacity: 0;
+    display: inline-block;
+    width: 350px;
+    background-color: #C4CACC;
+    overflow: auto;
+}
+
+
 #sec1 {
 	text-align: center;
 	margin: 45vh auto;
@@ -64,34 +77,71 @@ a:hover.a {
 }
 
 
+.about {
+	padding-top: 179px;
+}
 
 
 #sec2 {
-	background-image: url("pics/sedona3.jpg");
-	/*background-position: center;*/
+	background-color: #EBE7E7;
+	font-family: arial;
+	font-size: 25px;
+	color: black;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	height: 800px;
 	width: 100%;
 }
-#second2 {
-	margin-top: 250px;
+
+
+ul.li {
+	list-style-type: none;
+	text-transform: uppercase;
 }
 
-p.sec2 {
+li.lil {
+	text-transform: capitalize;
+}
+
+#second2 {
+	margin-top: 250px;
+
+}
+
+.sec2 {
+
 	text-align: center;
 	font-size: 25px;
 	color: white;
 	background-color: rgba(189, 195, 199,0.4);
-	/*padding-top: 125px;*/
+	padding-top: 125px;
 	height: 400;
 	background-size: cover;
 
 }
+p.sec3p {
+	width: 25%;
+    margin-left: 109px;
+}
 
-
-
+#sec3 {
+	background-color: orange;
+	margin: 0;
+	height: 800px;
+	width: 100%;
+	background-size: cover;
+}
+#projecta {
+	    background-image: url("pics/chalkboard_event.png");
+    background-size: 500px;
+    height: 267px;
+    background-position-x:	25px; 
+    background-position-y: 35px;
+    background-repeat: no-repeat;
+    width: 50%;
+	
+}
 
 #sec4 {
 	background-color: gray;
@@ -103,9 +153,19 @@ p.sec2 {
 	background-attachment: fixed;
 	text-align: center;
 	/*margin-left: -35px;*/
-	height: 920px;
+	height: 1010px;
 	width: 100%;
+	display: inline-block;
 	
+}
+img.sec4 {
+	float: left;
+}
+img.sec4_a {
+	float: left ;
+}
+img.nonea {
+	display: none;
 }
 
 #sec5 {
@@ -117,7 +177,7 @@ p.sec2 {
 	
 	font-size: 40px;
 	color: white;
-	height: 400px;
+	height: 800px;
 	width: 100%;
 	overflow: hidden
 
@@ -136,7 +196,7 @@ ul.b {
 	list-style-type: none;
 }
 li.c {
-display: inline-block;
+	display: inline-block;
 
 } 
 
@@ -147,3 +207,38 @@ img.a {
 }
 
 /*home page ends*/
+
+/*media queries start here*/
+@media all and (max-width: 400px) {
+	#sec1 {
+		width: 100%;
+		font-size: 40px;
+	}
+	ul.li {
+		text-align: left;
+	}
+	img.sec4 {
+		display: none;
+	}
+	img.sec4_a{
+		display: none;
+	}
+	img.nonea {
+		display: block;
+	}
+
+	#projecta {
+		background-size: 400px;
+		width: 100%;
+	}
+	.sec3p {
+    margin-left: 35px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-right-width: 100px;
+    height: 223px;
+    width: 331px;
+}
+
+}
